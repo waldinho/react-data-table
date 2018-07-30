@@ -5,6 +5,7 @@ import { makeData } from "./Utils";
 // Import React Table
 import ReactTable from "react-table";
 import "react-table/react-table.css";
+import "./App.css";
 
 const columns = [
   {
@@ -43,6 +44,7 @@ class App extends Component {
     const { data } = this.state;
     return (
       <div>
+        <h1>Order History</h1>
         <ReactTable
           pageSizeOptions={[Math.floor(data.length/4), Math.floor(data.length/2), data.length]}
           data={data}

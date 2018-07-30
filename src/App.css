@@ -22,6 +22,14 @@
   font-size: large;
 }
 
+.rt-resizable-header-content {
+  text-align: left;
+}
+
+.rt-th {
+  font-weight: 600;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
