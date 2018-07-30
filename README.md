@@ -1,1 +1,1 @@
-# react-data-table
+React data tables
