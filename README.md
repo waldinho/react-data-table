@@ -1,3 +1,3 @@
 React data tables
 
-Boilerplate.
+Reusable boilerplate for displaying data in grid/table format.
